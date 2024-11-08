@@ -59,11 +59,11 @@ const testimonials = [
 function MusicSchoolTestimonials() {
   return (
     <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col justify-center items-center overflow-hidden">
-        <h2 className="text-4xl font-bold text-center mt-6 pt-4 mb-4 z-10 ">
+        <h2 className="text-5xl font-bold text-center mt-6 pt-4 mb-4 z-10 ">
         Hear Our Harmony : voices of success 
         </h2>
         <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
-        <div className="h-[40rem] rounded-md flex flex-col  items-center justify-center relative overflow-hidden">
+        <div className="h-[20rem] rounded-md flex flex-col  items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
